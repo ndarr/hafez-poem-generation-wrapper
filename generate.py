@@ -3,7 +3,7 @@ import requests
 import json
 
 
-with open("wordlist.10000", "r") as f:
+with open("word_list.txt", "r") as f:
     lines = f.readlines()
     words = [word.strip() for word in lines if len(word) > 3]
 
